@@ -1,18 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 02 - F8</title>
-    <!-- Reset Css -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <!-- Linked Css -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- Embed fonts -->
-    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
-</head>
-<body>
-    <h1>This is heading</h1>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- Linked Css -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header fixed">
+      <div class="content">
+        <div class="header-body">
+          <img src="./assets/images/Logo.svg" alt="" class="header__logo" />
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li>
+                <a href="#!" class="navbar__link navbar__active">Home</a>
+              </li>
+              <li>
+                <a href="#!" class="navbar__link">Courses</a>
+              </li>
+              <li>
+                <a href="#!" class="navbar__link">Pricing</a>
+              </li>
+              <li>
+                <a href="#!" class="navbar__link">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="action">
+            <a href="#" class="btn btn--header">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="content">
+          <div class="hero-body">
+            <div class="hero-media">
+              <img
+                src="./assets/images/guy-lesson 1.png"
+                alt=""
+                class="hero-media__img"
+              />
+              <div class="hero-summary">
+                <div class="hero-item">
+                  <div class="hero-icon hero-icon--bg-first">
+                    <img src="./assets/images/bag.svg" alt="" />
+                  </div>
+                  <div class="hero-desc">
+                    <span class="hero-desc__text">20 Courses</span>
+                    <span class="hero-desc__about">Development</span>
+                  </div>
+                </div>
+                <div class="hero-item">
+                  <div class="hero-icon hero-icon--bg-second">
+                    <img src="./assets/images/Orion_code-window.svg" alt="" />
+                  </div>
+                  <div class="hero-desc">
+                    <span class="hero-desc__text">20 Courses</span>
+                    <span class="hero-desc__about">Marketing</span>
+                  </div>
+                </div>
+                <div class="hero-item">
+                  <div class="hero-icon hero-icon--bg-third">
+                    <img src="./assets/images/Orion_megaphone.svg" alt="" />
+                  </div>
+                  <div class="hero-desc">
+                    <span class="hero-desc__text">20 Courses</span>
+                    <span class="hero-desc__about">UI/UX Design</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-content">
+              <h2 class="hero-content__heading">
+                Learn without limits and spread knowledge.
+              </h2>
+              <p class="hero-content__desc">
+                Build new skills for that “this is my year” feeling with
+                courses, certificates, and degrees from world-class universities
+                and companies.
+              </p>
+              <div class="hero-view">
+                <a href="#" class="btn btn--hero">See Courses</a>
+                <div class="hero-play">
+                  <div class="hero-play__icon">
+                    <img src="./assets/images/Polygon 2.svg" alt="" />
+                  </div>
+                  <span class="hero-play__text">Watch video</span>
+                </div>
+              </div>
+              <p class="hero-content__recent">Recent engagement</p>
+              <div class="hero-count">
+                <div class="hero-count__item">
+                  <p><strong>50K</strong> Students</p>
+                </div>
+                <div class="hero-count__item">
+                  <p><strong>70+</strong> Courses</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
